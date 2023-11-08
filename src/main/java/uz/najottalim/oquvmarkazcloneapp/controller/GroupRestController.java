@@ -14,6 +14,8 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/groups")
 @RequiredArgsConstructor
+    @CrossOrigin(value = "*")
+
 public class GroupRestController {
 
     private final GroupService groupService;
